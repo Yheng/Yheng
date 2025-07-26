@@ -94,11 +94,8 @@ const ariel = {
 </div>
 
 <div align="center">
-  <a href="https://github.com/Yheng/project-name">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yheng&repo=project-name&theme=dracula&hide_border=true" />
-  </a>
-  <a href="https://github.com/Yheng/another-project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yheng&repo=another-project&theme=dracula&hide_border=true" />
+  <a href="https://github.com/Yheng/PillPulse">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yheng&repo=PillPulse&theme=dracula&hide_border=true" />
   </a>
 </div>
 
@@ -124,16 +121,12 @@ const ariel = {
 
 <br>
 
-<a href="mailto:your-email@example.com">
+<a href="mailto:yhengdesigns@gmail.com">
   <img src="https://img.shields.io/badge/Email-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 &nbsp;&nbsp;
-<a href="https://linkedin.com/in/your-profile">
+<a href="https://www.linkedin.com/in/arielretes/">
   <img src="https://img.shields.io/badge/LinkedIn-4ECDC4?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-&nbsp;&nbsp;
-<a href="https://your-portfolio.com">
-  <img src="https://img.shields.io/badge/Portfolio-45B7D1?style=for-the-badge&logo=About.me&logoColor=white" />
 </a>
 &nbsp;&nbsp;
 <a href="https://buymeacoffee.com/arielretes">
