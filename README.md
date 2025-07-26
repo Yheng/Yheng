@@ -1,170 +1,356 @@
-# 
+<div align="right">
 
-<div align="center">
-
-# 🚀 Ariel Retes
-
-**`Developer.class { skill_level: "Expert", caffeine_dependency: true }`**
-
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=600&lines=console.log(%22Hello%2C+World!%22);while(coffee+%3E+0)+%7B+code();+%7D;git+commit+-m+%22Fixed+it+(hopefully)%22;npm+install+happiness" alt="Code Animation" />
+![Profile Views](https://komarev.com/ghpvc/?username=Yheng&color=blueviolet&style=flat&label=profile+views)
 
 </div>
 
-<br>
+# 🚀 ARIEL RETES | PROJECT MANAGER & VIBE ENGINEER
 
-## 🤖 Hello, I'm Ariel
+<div align="center">
 
-I'm a caffeine-powered developer who turns `undefined` into defined solutions. I believe the best debugging tool is still `console.log()`, and yes, I do count HTML as a programming language (fight me). 
+<svg width="800" height="120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Animated Background Lines -->
+  <g opacity="0.2">
+    <line x1="0" y1="30" x2="800" y2="30" stroke="#00D9FF" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.1;0.5;0.1" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="60" x2="800" y2="60" stroke="#7C3AED" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="90" x2="800" y2="90" stroke="#F59E0B" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.1;0.5;0.1" dur="5s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Main Text -->
+  <text x="400" y="45" text-anchor="middle" font-family="Orbitron, monospace" font-size="32" 
+        font-weight="bold" fill="url(#textGradient)" filter="url(#textGlow)">
+    ARIEL RETES
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Subtitle with typewriter effect simulation -->
+  <text x="400" y="75" text-anchor="middle" font-family="monospace" font-size="14" fill="#00D9FF">
+    PROJECT MANAGER & VIBE ENGINEER
+    <animate attributeName="fill-opacity" values="0.7;1;0.7" dur="3s" repeatCount="indefinite"/>
+  </text>
+  
+  <!-- Floating particles -->
+  <circle cx="100" cy="40" r="2" fill="#00D9FF" opacity="0.6">
+    <animate attributeName="cx" values="100;700;100" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="200" cy="80" r="1.5" fill="#7C3AED" opacity="0.6">
+    <animate attributeName="cx" values="200;600;200" dur="10s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="600" cy="50" r="2.5" fill="#F59E0B" opacity="0.6">
+    <animate attributeName="cx" values="600;150;600" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="6s" repeatCount="indefinite"/>
+  </circle>
+</svg>
 
-```javascript
-const ariel = {
-    location: "localhost:3000",
-    languages: ["JavaScript", "Python", "TypeScript", "Sarcasm"],
-    hobbies: ["Coding", "Gaming", "Explaining why it works on my machine"],
-    currentStatus: "Probably fixing someone else's code",
-    motto: "There are only 10 types of people: those who understand binary and those who don't"
-};
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=35&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&multiline=true&width=800&height=100&lines=VIBE+CODING+SPECIALIST;CONTEXT+ENGINEERING+PIONEER;BUILDING+THE+FUTURE%2C+ONE+COMMIT+AT+A+TIME" alt="Typing SVG" />
+
+</div>
+
+---
+
+## 🌌 NEURAL INTERFACE LOADING...
+
+<div align="center">
+
+```svg
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="neonGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00D9FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#7C3AED;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge> 
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Animated Circuit Board Background -->
+  <g opacity="0.3">
+    <line x1="0" y1="50" x2="600" y2="50" stroke="#00D9FF" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="100" x2="600" y2="100" stroke="#7C3AED" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="150" x2="600" y2="150" stroke="#F59E0B" stroke-width="1">
+      <animate attributeName="stroke-opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Central Neural Node -->
+  <circle cx="300" cy="100" r="30" fill="none" stroke="url(#neonGlow)" stroke-width="3" filter="url(#glow)">
+    <animate attributeName="r" values="25;35;25" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Pulsing Data Streams -->
+  <circle cx="100" cy="100" r="8" fill="#00D9FF" opacity="0.8">
+    <animate attributeName="cx" values="100;300;500;300;100" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="500" cy="100" r="8" fill="#7C3AED" opacity="0.8">
+    <animate attributeName="cx" values="500;300;100;300;500" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Loading Progress Bar -->
+  <rect x="150" y="170" width="300" height="6" fill="none" stroke="#333" stroke-width="1"/>
+  <rect x="150" y="170" width="0" height="6" fill="url(#neonGlow)">
+    <animate attributeName="width" values="0;300;0" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  
+  <!-- Text -->
+  <text x="300" y="40" text-anchor="middle" font-family="monospace" font-size="16" fill="#00D9FF" opacity="0.9">
+    INITIALIZING NEURAL NETWORK...
+  </text>
+  <text x="300" y="195" text-anchor="middle" font-family="monospace" font-size="12" fill="#7C3AED" opacity="0.7">
+    > VIBE PROTOCOLS ACTIVE
+  </text>
+</svg>
 ```
 
-<div align="center">
-
-### 🔧 **My Tech Stack** 
-*"It's not a bug, it's a feature"*
-
 </div>
 
-<table align="center">
-<tr>
-<td align="center" width="33%">
-<img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="50" height="50"/>
-<br><strong>Frontend Wizardry</strong>
-<br><sub>Making pixels dance since 2010</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="50" height="50"/>
-<br><strong>Backend Sorcery</strong>
-<br><sub>Where the real magic happens</sub>
-</td>
-<td align="center" width="33%">
-<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="50" height="50"/>
-<br><strong>DevOps Alchemy</strong>
-<br><sub>Docker containers go brrrr</sub>
-</td>
-</tr>
-</table>
+---
 
-<br>
+## 🧠 SYSTEM SPECIFICATIONS
+
+```yaml
+Operating_Mode: "Vibe Coding & Context Engineering"
+Primary_Function: "Project Management & Digital Innovation"
+Specialization: ["Context Optimization", "Team Leadership", "Future-Tech Development"]
+Current_Mission: "Revolutionizing Human-AI Interaction Paradigms"
+Status: "ACTIVELY_INNOVATING"
+```
+
+### 🛸 CURRENT INITIATIVES
+
+> **Context Engineering Pioneer** - Architecting the future of AI-human collaboration through advanced prompt engineering and contextual optimization protocols.
+
+> **Vibe Coding Specialist** - Developing intuitive, emotion-aware programming methodologies that bridge the gap between human creativity and machine precision.
+
+> **Project Management Visionary** - Leading cross-functional teams to build innovative digital solutions that transform user experiences and drive technological advancement.
+
+---
+
+## 📡 CONTACT PROTOCOLS & FUEL MY CODE
 
 <div align="center">
 
-### 🛠️ **Weapons of Choice**
-*"No, I will not fix your printer"*
+### 🌐 NEURAL PATHWAYS & CONNECTIONS
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,vue,nodejs,python,docker,aws,git,vscode" />
+[![LinkedIn](https://img.shields.io/badge/NEURAL_LINK-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=000000)](https://www.linkedin.com/in/arielretes/)
+[![Email](https://img.shields.io/badge/DIRECT_CHANNEL-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=000000)](mailto:yhengdesigns@gmail.com)
+
+### ☕ FUEL MY INNOVATION
+
+[![Support Mission](https://img.shields.io/badge/FUEL_INNOVATION-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black&labelColor=000000)](https://buymeacoffee.com/arielretes)
+
+```
+💡 Support the mission to build tomorrow's technology today!
+🚀 Every coffee fuels another breakthrough innovation
+⚡ Help maintain the neural networks running 24/7
+🌟 Contribute to open-source vibe coding projects
+```
 
 </div>
+
+---
+
+## 🚀 FLAGSHIP PROJECT: PILLPULSE
 
 <div align="center">
 
-### 📊 **GitHub Stats** 
-*"git blame someone_else"*
+[![PillPulse](https://img.shields.io/badge/EXPLORE_PILLPULSE-FF6B6B?style=for-the-badge&logo=github&logoColor=white&labelColor=000000)](https://github.com/Yheng/PillPulse)
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Yheng&show_icons=true&theme=dracula&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yheng&layout=compact&theme=dracula&hide_border=true"/>
+**🏥 REVOLUTIONARY MEDICATION MANAGEMENT SYSTEM**
 
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yheng&theme=dracula&hide_border=true" />
-</div>
-
-### 🎮 **Achievement Unlocked**
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yheng&theme=dracula&no-frame=true&no-bg=false&margin-w=4" />
-</div>
-
-<br>
-
-<div align="center">
-
-### 🚀 **Current Quests**
-*"It compiles, ship it!"*
+*Transforming healthcare through intelligent automation and user-centric design*
 
 </div>
 
-<div align="center">
-  <a href="https://github.com/Yheng/PillPulse">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yheng&repo=PillPulse&theme=dracula&hide_border=true" />
-  </a>
-</div>
+```
+🔬 BREAKTHROUGH FEATURES:
+├── AI-Powered Medication Scheduling
+├── Smart Adherence Monitoring  
+├── Predictive Health Analytics
+├── Seamless Healthcare Integration
+└── Next-Gen User Experience
+```
 
-<br>
+---
+
+## ⚔️ WEAPONS OF CHOICE
 
 <div align="center">
 
-### 📈 **Commit History**
-*"git commit -m 'fixed the thing'"*
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yheng&theme=dracula&bg_color=282a36&color=ff79c6&line=bd93f9&point=ffb86c&area_color=44475a&area=true&hide_border=true&custom_title=Code%20Contributions" />
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white)
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
-<br>
+---
+
+## 🚀 MY TECH STACK
+
+```
+     FRONTEND ARSENAL          BACKEND POWERHOUSE         AI & EMERGING TECH
+    ╭─────────────────╮       ╭─────────────────╮       ╭─────────────────╮
+    │ React/Next.js   │       │ Node.js/Python  │       │ Machine Learning│
+    │ TypeScript      │       │ Cloud Computing │       │ Neural Networks │
+    │ Modern CSS      │       │ API Development │       │ Context AI      │
+    │ UI/UX Design    │       │ Database Systems│       │ Prompt Engineer │
+    ╰─────────────────╯       ╰─────────────────╯       ╰─────────────────╯
+```
+
+---
+
+## 🏆 ACHIEVEMENT UNLOCKED
+
+<div align="center">
+
+```
+🎯 Project Management Master ████████████████ 100%
+💻 Vibe Coding Pioneer      ████████████████ 100%
+🧠 Context Engineering Pro  ████████████████ 100%
+🚀 Innovation Catalyst      ███████████████░  95%
+🌐 Full-Stack Developer     ██████████████░░  90%
+☁️  Cloud Architecture      █████████████░░░  85%
+```
+
+**Latest Achievements:**
+- 🏅 **Context Master**: Revolutionized AI prompt engineering methodologies
+- 🌟 **Vibe Legend**: Created emotion-aware coding frameworks
+- 🚀 **Innovation Leader**: Successfully launched PillPulse healthcare platform
+- 💡 **Team Catalyst**: Led multiple cross-functional development teams
+
+</div>
+
+---
+
+## 🎮 CURRENT QUESTS
+
+```bash
+$ ./view_active_missions.sh
+
+[ACTIVE] Building next-generation context engineering tools
+[ACTIVE] Developing vibe-based programming methodologies  
+[ACTIVE] Leading PillPulse healthcare innovation project
+[ACTIVE] Mentoring emerging developers in modern practices
+[ACTIVE] Exploring AI-human collaboration frameworks
+
+[STATUS] All quests progressing. EXP +1000 daily.
+```
+
+---
+
+## 📊 MISSION METRICS & GITHUB STATS
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Yheng&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&icon_color=7C3AED&text_color=FFFFFF)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Yheng&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=00D9FF&text_color=FFFFFF)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Yheng&theme=tokyonight&background=0D1117&border=00D9FF)
+
+</div>
+
+---
+
+## 📈 COMMIT HISTORY & ACTIVITY
+
+<div align="center">
+
+[![Ariel's GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Yheng&theme=tokyo-night&bg_color=0D1117&color=00D9FF&line=7C3AED&point=F59E0B&area=true&hide_border=true)](https://github.com/Yheng)
+
+</div>
+
+```
+Recent Activity Stream:
+├── 🔥 Pushed 15 commits to PillPulse development
+├── ⚡ Merged PR for context optimization features
+├── 🚀 Released v2.0 of vibe coding framework
+├── 🌟 Contributed to 5 open source projects
+└── 💡 Opened 3 innovative feature requests
+```
+
+---
+
+## 🎯 CURRENT OBJECTIVES
+
+```bash
+$ ./execute_mission.sh
+
+> Pioneering context engineering methodologies
+> Developing next-generation vibe coding frameworks  
+> Advancing healthcare technology through PillPulse
+> Building sustainable innovation ecosystems
+> Mentoring future tech leaders
+
+[STATUS] All systems operational. Innovation in progress...
+```
+
+---
+
+## 💫 COLLABORATIVE PROTOCOLS
+
+**Ready to build the future together?** Let's connect and create revolutionary solutions that push the boundaries of what's possible.
+
+Whether you're interested in:
+- 🧠 **Context Engineering & AI Optimization**
+- 🚀 **Vibe Coding Methodologies**
+- 📊 **Project Management Innovation**
+- 🌟 **Collaborative Future-Tech Projects**
+
+I'm always open to connecting with fellow innovators, dreamers, and builders who share the vision of a better tomorrow.
 
 ---
 
 <div align="center">
 
-### 📡 **Contact Protocols**
-*"Have you tried turning it off and on again?"*
-
-<br>
-
-<a href="mailto:yhengdesigns@gmail.com">
-  <img src="https://img.shields.io/badge/Email-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white" />
-</a>
-&nbsp;&nbsp;
-<a href="https://www.linkedin.com/in/arielretes/">
-  <img src="https://img.shields.io/badge/LinkedIn-4ECDC4?style=for-the-badge&logo=linkedin&logoColor=white" />
-</a>
-&nbsp;&nbsp;
-<a href="https://buymeacoffee.com/arielretes">
-  <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD44?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
-</a>
-
-<br><br>
-
-### ☕ **Fuel My Code**
-*"Powered by coffee and Stack Overflow"*
-
-<a href="https://buymeacoffee.com/arielretes" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" width="180">
-</a>
-
-<br>
-
-```bash
-$ sudo apt install motivation
-Reading package lists... Done
-Building dependency tree... Done
-The following packages will be installed:
-  coffee caffeine energy focus
-Do you want to continue? [Y/n] Y
+```
+┌─────────────────────────────────────────────────────────────┐
+│  "The future belongs to those who build it, not predict it" │
+│                        - Ariel Retes                       │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-</div>
-
-<br>
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Yheng&color=ff79c6&style=flat-square&label=Profile+Views" />
-  <img src="https://img.shields.io/github/followers/Yheng?label=Followers&style=flat-square&color=bd93f9" />
-  <img src="https://img.shields.io/badge/Status-Probably%20Debugging-red?style=flat-square" />
-</div>
-
-<div align="center">
-
-**`// END OF FILE - No bugs found (that we know of) 🐛`**
+**🌟 Currently accepting collaboration requests for groundbreaking projects**
 
 </div>
