@@ -1,145 +1,120 @@
-# Hi there, I'm Ariel Retes! 👋
+# 
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Code+Enthusiast;Problem+Solver;Always+Learning" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:000000,50:0a0a0a,100:1a1a1a&height=120&section=header&text=ARIEL%20RETES&fontSize=28&fontColor=00ff41&animation=fadeIn&fontAlign=50&desc=Developer%20%7C%20Engineer%20%7C%20Creator&descSize=12&descAlignY=75" />
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Welcome%20to%20My%20Code%20Universe!&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=32" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=16&duration=4000&pause=1000&color=00FF41&center=true&vCenter=true&width=500&lines=~%24+initializing_system...;~%24+loading_profile.exe;~%24+welcome_to_the_matrix;~%24+status%3A+online_and_coding;~%24+ready_for_new_challenges" alt="Terminal Animation" />
 </div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2000&pause=500&color=FF6B6B&center=true&vCenter=true&multiline=true&width=600&height=100&lines=🚀+Launching+into+code...;💡+Debugging+the+matrix...;⚡+Compiling+dreams+into+reality...;🎯+Building+the+future...;🔥+Pushing+to+production!" alt="Animated Status" />
-</div>
-
-## 🚀 About Me
-
-I'm a passionate developer who loves turning ideas into reality through code. When I'm not coding, you'll find me exploring new technologies, contributing to open source, or sharing knowledge with the developer community.
-
-```javascript
-const ariel = {
-    pronouns: "he/him",
-    location: "Earth 🌍",
-    languages: ["JavaScript", "Python", "TypeScript", "Java"],
-    technologies: {
-        frontend: ["React", "Vue.js", "Angular", "HTML5", "CSS3"],
-        backend: ["Node.js", "Express", "Django", "Spring Boot"],
-        databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
-        cloud: ["AWS", "Google Cloud", "Docker", "Kubernetes"],
-        tools: ["Git", "VS Code", "Figma", "Postman"]
-    },
-    currentFocus: "Building scalable web applications",
-    funFact: "I debug with console.log and I'm not ashamed! 🐛"
-};
+```
+┌─────────────────────────────────────────────────────────────┐
+│  SYSTEM STATUS: OPERATIONAL                                 │
+│  ╭─────────────────────────────────────────────────────╮   │
+│  │  NAME: Ariel Retes                                  │   │
+│  │  ROLE: Full Stack Developer                         │   │
+│  │  MODE: Creative Problem Solver                      │   │
+│  │  UPTIME: ████████████████ 99.9%                    │   │
+│  ╰─────────────────────────────────────────────────────╯   │
+└─────────────────────────────────────────────────────────────┘
 ```
 
-## 🛠️ Tech Stack
+<br>
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,python,java,react,vue,angular,nodejs,express,django,mongodb,postgres,mysql,aws,docker,git,vscode&perline=8" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Yheng&show_icons=true&theme=chartreuse-dark&bg_color=000000&title_color=00ff41&icon_color=00ff41&text_color=ffffff&border_color=00ff41&hide_border=false&border_radius=0"/>
 </div>
 
-## 📊 GitHub Stats
+<br>
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Yheng&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yheng&layout=compact&langs_count=8&theme=tokyonight"/>
+
+**`// TECH_STACK.CONFIG`**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-000000?style=flat-square&logo=javascript&logoColor=00ff41)
+![TypeScript](https://img.shields.io/badge/TypeScript-000000?style=flat-square&logo=typescript&logoColor=00ff41)
+![React](https://img.shields.io/badge/React-000000?style=flat-square&logo=react&logoColor=00ff41)
+![Node.js](https://img.shields.io/badge/Node.js-000000?style=flat-square&logo=node.js&logoColor=00ff41)
+![Python](https://img.shields.io/badge/Python-000000?style=flat-square&logo=python&logoColor=00ff41)
+![Docker](https://img.shields.io/badge/Docker-000000?style=flat-square&logo=docker&logoColor=00ff41)
+
 </div>
 
+<br>
+
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yheng&theme=tokyonight" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yheng&theme=chartreuse-dark&background=000000&ring=00ff41&fire=00ff41&currStreakLabel=00ff41&sideNums=ffffff&currStreakNum=ffffff&dates=ffffff&sideLabels=ffffff&border=00ff41&stroke=00ff41&hide_border=false" />
 </div>
 
-## 🏆 GitHub Trophies
+<br>
+
+```javascript
+const developer = {
+    name: "Ariel Retes",
+    location: "Earth.exe",
+    status: "Building the future, one commit at a time",
+    
+    execute() {
+        while(alive) {
+            eat();
+            sleep();
+            code();
+            repeat();
+        }
+    },
+    
+    currentMission: "Creating digital experiences that matter",
+    contact: ["email", "linkedin", "coffee"]
+};
+
+// Output: Ready for your next challenge
+console.log("Hello, World! 👋");
+```
+
+<br>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yheng&theme=tokyonight&no-frame=false&no-bg=false&margin-w=4" />
+
+**`// ACTIVITY_GRAPH.LOG`**
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yheng&theme=chartreuse-dark&bg_color=000000&color=00ff41&line=00ff41&point=ffffff&area_color=00ff41&area=true&hide_border=false&custom_title=Code%20Activity%20Matrix" />
+
 </div>
 
-## 📈 Activity Graph
+<br>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yheng&theme=tokyo-night&bg_color=1a1b27&color=70a5fd&line=bf91f3&point=38bdae&area=true&hide_border=true" />
+
+**`// CONTACT_PROTOCOLS.INIT`**
+
+[![Email](https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00ff41&labelColor=000000)](mailto:your-email@example.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00ff41&labelColor=000000)](https://linkedin.com/in/your-profile)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=firefox&logoColor=00ff41&labelColor=000000)](https://your-portfolio.com)
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy_Me_A_Coffee-000000?style=for-the-badge&logo=buy-me-a-coffee&logoColor=00ff41&labelColor=000000)](https://buymeacoffee.com/arielretes)
+
 </div>
 
-## 🎯 Current Projects
-
-- 🔭 I'm currently working on **[Your Current Project]**
-- 🌱 I'm learning **[New Technology/Framework]**
-- 👯 I'm looking to collaborate on **Open Source Projects**
-- 🤔 I'm looking for help with **[Specific Area]**
-- 💬 Ask me about **Web Development, JavaScript, or anything tech!**
-- 📫 How to reach me: **[your-email@example.com]**
-
-## 🌟 Featured Repositories
+<br>
 
 <div align="center">
-  <a href="https://github.com/Yheng/repo-name">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yheng&repo=repo-name&theme=tokyonight" />
-  </a>
-  <a href="https://github.com/Yheng/another-repo">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yheng&repo=another-repo&theme=tokyonight" />
-  </a>
+
+```
+╔═══════════════════════════════════════════════════════════╗
+║  "Code is poetry written in logic"                       ║
+║                                         - Ariel Retes    ║
+╚═══════════════════════════════════════════════════════════╝
+```
+
 </div>
 
-## 📝 Latest Blog Posts
-
-<!-- BLOG-POST-LIST:START -->
-- [Your Latest Blog Post Title](link-to-post)
-- [Another Interesting Article](link-to-post)
-- [Tech Tutorial You Wrote](link-to-post)
-<!-- BLOG-POST-LIST:END -->
-
-## 🤝 Connect with Me
+<br>
 
 <div align="center">
-  <a href="https://linkedin.com/in/your-profile">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://twitter.com/your-handle">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" />
-  </a>
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://your-portfolio.com">
-    <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white" />
-  </a>
-  <a href="https://buymeacoffee.com/arielretes">
-    <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
-  </a>
-</div>
-
-## 💡 Random Dev Quote
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</div>
-
-## 🎵 Currently Vibing To
-
-<div align="center">
-  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=1a1b27&border_color=ffffff" />
-</div>
-
-## ☕ Support My Work
-
-<div align="center">
-  <p>If you find my projects helpful or interesting, consider buying me a coffee! ☕</p>
-  <a href="https://buymeacoffee.com/arielretes" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217">
-  </a>
-  <p><em>Your support helps me keep coding and creating awesome projects!</em></p>
-</div>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Yheng&color=blueviolet&style=flat-square&label=Profile+Views" />
-  <img src="https://img.shields.io/github/followers/Yheng?label=Followers&style=flat-square&color=blue" />
+  <img src="https://komarev.com/ghpvc/?username=Yheng&color=00ff41&style=flat-square&label=VISITORS"/>
+  <img src="https://img.shields.io/github/followers/Yheng?color=00ff41&style=flat-square&label=FOLLOWERS&labelColor=000000&logo=github&logoColor=00ff41"/>
 </div>
 
 <div align="center">
-  <h3>⭐ Star some repositories if you find my work interesting! ⭐</h3>
-  <p><em>Happy Coding! 🚀</em></p>
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:1a1a1a,50:0a0a0a,100:000000&height=80&section=footer&reversal=true&fontColor=00ff41&fontSize=12&text=END_OF_TRANSMISSION&animation=fadeIn" />
 </div>
