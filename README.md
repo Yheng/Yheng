@@ -1,41 +1,54 @@
 # 
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,14,17,3&height=160&section=header&text=Ariel%20Retes&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Crafting%20Digital%20Experiences&descAlignY=65&descSize=18" />
-</div>
 
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=SF+Pro+Display&size=24&duration=3000&pause=800&color=667EEA&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;UX%2FUI+Enthusiast;Problem+Solver;Tech+Innovator" alt="Professional Typing Animation" />
+# 🚀 Ariel Retes
+
+**`Developer.class { skill_level: "Expert", caffeine_dependency: true }`**
+
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=18&duration=3000&pause=800&color=F97316&center=true&vCenter=true&width=600&lines=console.log(%22Hello%2C+World!%22);while(coffee+%3E+0)+%7B+code();+%7D;git+commit+-m+%22Fixed+it+(hopefully)%22;npm+install+happiness" alt="Code Animation" />
+
 </div>
 
 <br>
 
-## 👋 Hello, I'm Ariel
+## 🤖 Hello, I'm Ariel
 
-I'm a passionate full-stack developer who believes great code should feel as good as it looks. I focus on creating intuitive, performant applications that users love to interact with.
+I'm a caffeine-powered developer who turns `undefined` into defined solutions. I believe the best debugging tool is still `console.log()`, and yes, I do count HTML as a programming language (fight me). 
+
+```javascript
+const ariel = {
+    location: "localhost:3000",
+    languages: ["JavaScript", "Python", "TypeScript", "Sarcasm"],
+    hobbies: ["Coding", "Gaming", "Explaining why it works on my machine"],
+    currentStatus: "Probably fixing someone else's code",
+    motto: "There are only 10 types of people: those who understand binary and those who don't"
+};
+```
 
 <div align="center">
 
-### 🎯 **What I Do**
+### 🔧 **My Tech Stack** 
+*"It's not a bug, it's a feature"*
 
 </div>
 
 <table align="center">
 <tr>
 <td align="center" width="33%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="48" height="48"/>
-<br><strong>Frontend Development</strong>
-<br><sub>Creating responsive, accessible interfaces</sub>
+<img src="https://media.giphy.com/media/ln7z2eWriiQAllfVcn/giphy.gif" width="50" height="50"/>
+<br><strong>Frontend Wizardry</strong>
+<br><sub>Making pixels dance since 2010</sub>
 </td>
 <td align="center" width="33%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="48" height="48"/>
-<br><strong>Backend Architecture</strong>
-<br><sub>Building scalable server solutions</sub>
+<img src="https://media.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.gif" width="50" height="50"/>
+<br><strong>Backend Sorcery</strong>
+<br><sub>Where the real magic happens</sub>
 </td>
 <td align="center" width="33%">
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="48" height="48"/>
-<br><strong>UX/UI Design</strong>
-<br><sub>Designing user-centered experiences</sub>
+<img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="50" height="50"/>
+<br><strong>DevOps Alchemy</strong>
+<br><sub>Docker containers go brrrr</sub>
 </td>
 </tr>
 </table>
@@ -44,37 +57,48 @@ I'm a passionate full-stack developer who believes great code should feel as goo
 
 <div align="center">
 
-### 🛠️ **Tech Arsenal**
+### 🛠️ **Weapons of Choice**
+*"No, I will not fix your printer"*
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,vue,nodejs,python,docker,aws,figma,git" />
-
-<br><br>
-
-### 📊 **GitHub Analytics**
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Yheng&show_icons=true&theme=vue&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9&ring_color=1f6feb"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yheng&layout=compact&theme=vue&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9"/>
+<img src="https://skillicons.dev/icons?i=js,ts,react,vue,nodejs,python,docker,aws,git,vscode" />
 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yheng&theme=vue-dark&hide_border=true&background=0d1117&stroke=58a6ff&ring=1f6feb&fire=58a6ff&currStreakLabel=58a6ff" />
+
+### 📊 **GitHub Stats** 
+*"git blame someone_else"*
+
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Yheng&show_icons=true&theme=dracula&hide_border=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yheng&layout=compact&theme=dracula&hide_border=true"/>
+
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Yheng&theme=dracula&hide_border=true" />
+</div>
+
+### 🎮 **Achievement Unlocked**
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Yheng&theme=dracula&no-frame=true&no-bg=false&margin-w=4" />
 </div>
 
 <br>
 
 <div align="center">
 
-### 🎨 **Featured Work**
+### 🚀 **Current Quests**
+*"It compiles, ship it!"*
 
 </div>
 
 <div align="center">
   <a href="https://github.com/Yheng/project-name">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yheng&repo=project-name&theme=vue-dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=1f6feb" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yheng&repo=project-name&theme=dracula&hide_border=true" />
   </a>
   <a href="https://github.com/Yheng/another-project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yheng&repo=another-project&theme=vue-dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=1f6feb" />
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Yheng&repo=another-project&theme=dracula&hide_border=true" />
   </a>
 </div>
 
@@ -82,9 +106,10 @@ I'm a passionate full-stack developer who believes great code should feel as goo
 
 <div align="center">
 
-### 🌊 **Activity Flow**
+### 📈 **Commit History**
+*"git commit -m 'fixed the thing'"*
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yheng&theme=vue&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area_color=1f6feb&area=true&hide_border=true&custom_title=Contribution%20Activity" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yheng&theme=dracula&bg_color=282a36&color=ff79c6&line=bd93f9&point=ffb86c&area_color=44475a&area=true&hide_border=true&custom_title=Code%20Contributions" />
 
 </div>
 
@@ -94,49 +119,59 @@ I'm a passionate full-stack developer who believes great code should feel as goo
 
 <div align="center">
 
-### 💬 **Let's Connect**
-
-I'm always excited to collaborate on innovative projects or discuss the latest in tech and design.
+### 📡 **Contact Protocols**
+*"Have you tried turning it off and on again?"*
 
 <br>
 
 <a href="mailto:your-email@example.com">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" />
+  <img src="https://img.shields.io/badge/Email-FF6B6B?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 &nbsp;&nbsp;
 <a href="https://linkedin.com/in/your-profile">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" />
+  <img src="https://img.shields.io/badge/LinkedIn-4ECDC4?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
 &nbsp;&nbsp;
 <a href="https://your-portfolio.com">
-  <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white&labelColor=000000" />
+  <img src="https://img.shields.io/badge/Portfolio-45B7D1?style=for-the-badge&logo=About.me&logoColor=white" />
 </a>
 &nbsp;&nbsp;
 <a href="https://buymeacoffee.com/arielretes">
-  <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black&labelColor=FFDD00" />
+  <img src="https://img.shields.io/badge/Buy%20Me%20A%20Coffee-FFDD44?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" />
 </a>
 
 <br><br>
 
-### ☕ **Support My Work**
+### ☕ **Fuel My Code**
+*"Powered by coffee and Stack Overflow"*
 
 <a href="https://buymeacoffee.com/arielretes" target="_blank">
-  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-blue.png" alt="Buy Me A Coffee" height="50" width="180">
+  <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50" width="180">
 </a>
 
 <br>
 
-*"Great design is not just what it looks like — it's how it works."*
+```bash
+$ sudo apt install motivation
+Reading package lists... Done
+Building dependency tree... Done
+The following packages will be installed:
+  coffee caffeine energy focus
+Do you want to continue? [Y/n] Y
+```
 
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Yheng&color=58a6ff&style=flat-square&label=Profile+Views" />
-  <img src="https://img.shields.io/github/followers/Yheng?label=Followers&style=flat-square&color=58a6ff&labelColor=0d1117" />
+  <img src="https://komarev.com/ghpvc/?username=Yheng&color=ff79c6&style=flat-square&label=Profile+Views" />
+  <img src="https://img.shields.io/github/followers/Yheng?label=Followers&style=flat-square&color=bd93f9" />
+  <img src="https://img.shields.io/badge/Status-Probably%20Debugging-red?style=flat-square" />
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,14,17,3&height=120&section=footer&reversal=true" />
+
+**`// END OF FILE - No bugs found (that we know of) 🐛`**
+
 </div>
