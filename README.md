@@ -10,6 +10,331 @@
 
 </div>
 
+### 🕹️ **Retro Gaming Break**
+*"When debugging gets tough, the tough play Space Invaders"*
+
+<div align="center">
+  <details>
+    <summary>🚀 <strong>Play Space Invaders</strong> 🚀</summary>
+    <br>
+    <div id="game-container">
+      <canvas id="spaceInvaders" width="600" height="400" style="border: 2px solid #bd93f9; background: linear-gradient(180deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); border-radius: 8px;"></canvas>
+      <br>
+      <p style="margin: 10px 0; color: #ff79c6; font-family: monospace;">
+        <strong>Controls:</strong> ← → Arrow Keys to Move | Spacebar to Shoot | ESC to Pause
+      </p>
+      <p style="margin: 5px 0; color: #50fa7b; font-family: monospace; font-size: 14px;">
+        Score: <span id="score">0</span> | Lives: <span id="lives">3</span> | Level: <span id="level">1</span>
+      </p>
+    </div>
+    
+    <script>
+      const canvas = document.getElementById('spaceInvaders');
+      const ctx = canvas.getContext('2d');
+      
+      // Game state
+      let gameState = {
+        score: 0,
+        lives: 3,
+        level: 1,
+        gameRunning: true,
+        paused: false
+      };
+      
+      // Player
+      const player = {
+        x: canvas.width / 2 - 25,
+        y: canvas.height - 60,
+        width: 50,
+        height: 30,
+        speed: 5,
+        color: '#50fa7b'
+      };
+      
+      // Arrays for game objects
+      let bullets = [];
+      let invaders = [];
+      let invaderBullets = [];
+      let particles = [];
+      
+      // Create invaders
+      function createInvaders() {
+        invaders = [];
+        for (let row = 0; row < 5; row++) {
+          for (let col = 0; col < 10; col++) {
+            invaders.push({
+              x: col * 55 + 50,
+              y: row * 40 + 50,
+              width: 35,
+              height: 25,
+              alive: true,
+              color: row < 2 ? '#ff79c6' : row < 4 ? '#8be9fd' : '#ffb86c'
+            });
+          }
+        }
+      }
+      
+      // Create particle effect
+      function createParticles(x, y, color) {
+        for (let i = 0; i < 8; i++) {
+          particles.push({
+            x: x,
+            y: y,
+            vx: (Math.random() - 0.5) * 6,
+            vy: (Math.random() - 0.5) * 6,
+            life: 30,
+            color: color
+          });
+        }
+      }
+      
+      // Draw functions
+      function drawPlayer() {
+        ctx.fillStyle = player.color;
+        ctx.fillRect(player.x, player.y, player.width, player.height);
+        
+        // Add glow effect
+        ctx.shadowColor = player.color;
+        ctx.shadowBlur = 10;
+        ctx.fillRect(player.x + 5, player.y - 5, player.width - 10, 5);
+        ctx.shadowBlur = 0;
+      }
+      
+      function drawInvaders() {
+        invaders.forEach(invader => {
+          if (invader.alive) {
+            ctx.fillStyle = invader.color;
+            ctx.fillRect(invader.x, invader.y, invader.width, invader.height);
+            
+            // Add glow effect
+            ctx.shadowColor = invader.color;
+            ctx.shadowBlur = 5;
+            ctx.fillRect(invader.x + 5, invader.y + 5, invader.width - 10, invader.height - 10);
+            ctx.shadowBlur = 0;
+          }
+        });
+      }
+      
+      function drawBullets() {
+        ctx.fillStyle = '#f1fa8c';
+        bullets.forEach(bullet => {
+          ctx.fillRect(bullet.x, bullet.y, bullet.width, bullet.height);
+        });
+        
+        ctx.fillStyle = '#ff5555';
+        invaderBullets.forEach(bullet => {
+          ctx.fillRect(bullet.x, bullet.y, bullet.width, bullet.height);
+        });
+      }
+      
+      function drawParticles() {
+        particles.forEach(particle => {
+          ctx.globalAlpha = particle.life / 30;
+          ctx.fillStyle = particle.color;
+          ctx.fillRect(particle.x, particle.y, 3, 3);
+          ctx.globalAlpha = 1;
+        });
+      }
+      
+      // Update functions
+      function updateBullets() {
+        bullets = bullets.filter(bullet => {
+          bullet.y -= bullet.speed;
+          return bullet.y > 0;
+        });
+        
+        invaderBullets = invaderBullets.filter(bullet => {
+          bullet.y += bullet.speed;
+          return bullet.y < canvas.height;
+        });
+      }
+      
+      function updateParticles() {
+        particles = particles.filter(particle => {
+          particle.x += particle.vx;
+          particle.y += particle.vy;
+          particle.life--;
+          return particle.life > 0;
+        });
+      }
+      
+      function updateInvaders() {
+        let moveDown = false;
+        let leftMost = canvas.width;
+        let rightMost = 0;
+        
+        invaders.forEach(invader => {
+          if (invader.alive) {
+            leftMost = Math.min(leftMost, invader.x);
+            rightMost = Math.max(rightMost, invader.x + invader.width);
+          }
+        });
+        
+        if (leftMost <= 0 || rightMost >= canvas.width) {
+          moveDown = true;
+        }
+        
+        invaders.forEach(invader => {
+          if (invader.alive) {
+            if (moveDown) {
+              invader.y += 20;
+            } else {
+              invader.x += leftMost <= 0 ? 1 : -1;
+            }
+          }
+        });
+      }
+      
+      // Collision detection
+      function checkCollisions() {
+        // Bullet vs invaders
+        bullets.forEach((bullet, bulletIndex) => {
+          invaders.forEach((invader, invaderIndex) => {
+            if (invader.alive && 
+                bullet.x < invader.x + invader.width &&
+                bullet.x + bullet.width > invader.x &&
+                bullet.y < invader.y + invader.height &&
+                bullet.y + bullet.height > invader.y) {
+              
+              invader.alive = false;
+              bullets.splice(bulletIndex, 1);
+              gameState.score += 10;
+              createParticles(invader.x + invader.width/2, invader.y + invader.height/2, invader.color);
+            }
+          });
+        });
+        
+        // Invader bullets vs player
+        invaderBullets.forEach((bullet, bulletIndex) => {
+          if (bullet.x < player.x + player.width &&
+              bullet.x + bullet.width > player.x &&
+              bullet.y < player.y + player.height &&
+              bullet.y + bullet.height > player.y) {
+            
+            invaderBullets.splice(bulletIndex, 1);
+            gameState.lives--;
+            createParticles(player.x + player.width/2, player.y + player.height/2, player.color);
+            
+            if (gameState.lives <= 0) {
+              gameState.gameRunning = false;
+            }
+          }
+        });
+      }
+      
+      // Input handling
+      const keys = {};
+      
+      document.addEventListener('keydown', (e) => {
+        keys[e.key] = true;
+        
+        if (e.key === ' ') {
+          e.preventDefault();
+          if (bullets.length < 3) {
+            bullets.push({
+              x: player.x + player.width/2 - 2,
+              y: player.y,
+              width: 4,
+              height: 10,
+              speed: 7
+            });
+          }
+        }
+        
+        if (e.key === 'Escape') {
+          gameState.paused = !gameState.paused;
+        }
+      });
+      
+      document.addEventListener('keyup', (e) => {
+        keys[e.key] = false;
+      });
+      
+      // Game loop
+      function gameLoop() {
+        if (!gameState.gameRunning || gameState.paused) {
+          ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
+          ctx.fillRect(0, 0, canvas.width, canvas.height);
+          ctx.fillStyle = '#ff79c6';
+          ctx.font = '30px monospace';
+          ctx.textAlign = 'center';
+          ctx.fillText(gameState.gameRunning ? 'PAUSED' : 'GAME OVER', canvas.width/2, canvas.height/2);
+          ctx.font = '16px monospace';
+          ctx.fillText('Press ESC to ' + (gameState.gameRunning ? 'resume' : 'restart'), canvas.width/2, canvas.height/2 + 40);
+          
+          if (!gameState.gameRunning && keys['Escape']) {
+            // Restart game
+            gameState = { score: 0, lives: 3, level: 1, gameRunning: true, paused: false };
+            bullets = [];
+            invaderBullets = [];
+            particles = [];
+            createInvaders();
+          }
+          
+          requestAnimationFrame(gameLoop);
+          return;
+        }
+        
+        // Clear canvas
+        ctx.fillStyle = 'rgba(26, 26, 46, 0.1)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+        
+        // Handle input
+        if (keys['ArrowLeft'] && player.x > 0) {
+          player.x -= player.speed;
+        }
+        if (keys['ArrowRight'] && player.x < canvas.width - player.width) {
+          player.x += player.speed;
+        }
+        
+        // Update game objects
+        updateBullets();
+        updateInvaders();
+        updateParticles();
+        checkCollisions();
+        
+        // Invaders shoot randomly
+        if (Math.random() < 0.02) {
+          const aliveInvaders = invaders.filter(inv => inv.alive);
+          if (aliveInvaders.length > 0) {
+            const shooter = aliveInvaders[Math.floor(Math.random() * aliveInvaders.length)];
+            invaderBullets.push({
+              x: shooter.x + shooter.width/2 - 2,
+              y: shooter.y + shooter.height,
+              width: 4,
+              height: 8,
+              speed: 3
+            });
+          }
+        }
+        
+        // Draw everything
+        drawPlayer();
+        drawInvaders();
+        drawBullets();
+        drawParticles();
+        
+        // Check win condition
+        if (invaders.every(inv => !inv.alive)) {
+          gameState.level++;
+          createInvaders();
+        }
+        
+        // Update UI
+        document.getElementById('score').textContent = gameState.score;
+        document.getElementById('lives').textContent = gameState.lives;
+        document.getElementById('level').textContent = gameState.level;
+        
+        requestAnimationFrame(gameLoop);
+      }
+      
+      // Initialize game
+      createInvaders();
+      gameLoop();
+    </script>
+  </details>
+</div>
+
 <br>
 
 ## 🤖 Hello, I'm Ariel
